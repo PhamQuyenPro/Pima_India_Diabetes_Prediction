@@ -81,7 +81,7 @@ Using Nearest neightbor imputation (KNN inpution) and mean, median values in the
 Using Random Forest Classifier, Support Vector Classification and Tune Catboost to train the data.
 <br>
 <br>
-***Deployment the trained model 
+***Deployment the trained model***
 <br>
 Using flask to build webserver on local PC and build a website for users.
 
