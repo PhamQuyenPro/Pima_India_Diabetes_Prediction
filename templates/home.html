@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diabetes</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        html{
+            overflow: hidden;
+        }
+
+        body{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #login-form-container{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>	
+<body>
+    <div id="login-form-container">
+        <form action="classify" method="GET">
+            <div class="card" style="width: 400px">
+            <div class="card-content">
+                <div class="media">
+                <div class="is-size-4 has-text-centered">Diabetes Classification</div>
+                </div>
+                <div class="content">
+
+                <div class="field">
+                    <p class="control">
+                    Pregnancies: <input class="input" type="number" onClick="this.select();" value='0' step='1' name="pregnancies" id="pregnancies">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    Glucose: <input class="input" type="number" onClick="this.select();" value='0' step='0.01' name="glucose" id="glucose">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    BloodPressure: <input class="input" type="number" onClick="this.select();" value='0' step='0.01' name="bloodpressure" id="bloodpressure">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    SkinThickness: <input class="input" type="number" onClick="this.select();" value='0' step='0.01' name="skinthickness" id="skinthickness">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    Insulin: <input class="input" type="number" onClick="this.select();" value='0' step='0.01' name="insulin" id="insulin">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    BMI: <input class="input" type="number" onClick="this.select();" value='0' step='0.01' name="bmi" id="bmi">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    DiabetesPedigreeFunction: <input class="input" type="number" onClick="this.select();" step='0.001' value='0' name="diabetespedigreefunction" id="diabetespedigreefunction">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    Age: <input class="input" type="number" onClick="this.select();" value='0' step='1' name="age" id="age">
+                    </p>
+                </div>
+                
+                <div class="field">
+                    <button class="button is-fullwidth is-rounded is-success">Submit</button>
+                </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
