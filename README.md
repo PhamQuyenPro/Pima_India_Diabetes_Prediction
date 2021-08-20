@@ -84,5 +84,7 @@ Using Random Forest Classifier, Support Vector Classification and Tune Catboost 
 ***Deployment the trained model***
 <br>
 Using flask to build webserver on local PC and build a website for users.
+<br>
 ![50](https://user-images.githubusercontent.com/69075653/130221792-50565dcc-a95e-4a7d-aca3-fc5334e7e26f.png)
+<br>
 ![51](https://user-images.githubusercontent.com/69075653/130221816-8e69ee4b-eee3-4228-9041-5b94d7ab658b.png)
