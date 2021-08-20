@@ -61,7 +61,7 @@ Predictor variables includes the number of pregnancies the patient has had their
 *SkinThickness:* Triceps skin fold thickness (mm).
 <br>
 *Insulin:* 2-Hour serum insulin (mu U/ml).
->br>
+<br>
 *BMI:* Body mass index (weight in kg/(height in m)^2)
 <br>
 *DiabetesPedigreeFunction:* Diabetes pedigree function.
